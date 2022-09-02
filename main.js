@@ -206,7 +206,7 @@ function updateSomeStuff(){
 		bullet.y = player.y + player.height/2;
 		bullet.angle = Math.atan2(mouse.y - bullet.y, mouse.x - bullet.x);
 
-		if(game_speed > 100)
+		if(game_speed > 500)
 			game_speed-=10;
 		time_1000 += game_speed;
 	}
