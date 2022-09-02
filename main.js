@@ -207,7 +207,7 @@ function updateSomeStuff(){
 		bullet.angle = Math.atan2(mouse.y - bullet.y, mouse.x - bullet.x);
 
 		if(game_speed > 100)
-			game_speed--;
+			game_speed-=10;
 		time_1000 += game_speed;
 	}
 
